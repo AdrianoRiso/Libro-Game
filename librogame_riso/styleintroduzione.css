@@ -1,0 +1,54 @@
+
+body {
+    background-image: linear-gradient(to left, #c00005, #9f0017,#520303,#050404, #dbd5d6,#5564f0,#001798,#3d006e );/*colore di sfondo gradiente*/
+    display: flex; /*caratteri allineati in riga*/
+    justify-content: center;/*centro il contenuto*/
+}
+
+.contenitore{
+    background-color: darkgray;/*colore di sfondo*/
+    border-radius: 15px;/*il bordo arrotondato*/
+    width: 50%;/*larghezza del contenitore*/
+    justify-content: center;
+}
+h1{
+    text-align: center;/* allineo il testo al centro*/
+}
+.contenitore_immagine{
+    padding-left: 10px;/*aumento la distanza tra il testo e il contentitore*/
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.box{
+    display: flex;
+}
+
+.link > a {
+    padding: 5px;
+    color: white; /*colore del testo*/
+    background-color: blue;
+    border-radius: 5px;
+    padding-left: 12px;
+    margin-left: 50px; /*aumento la distanza tra i vari pulsanti*/
+}
+.testo{
+    width: 40%;
+    font-size: 20px;/*aumento la grandezza del font*/
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: beige;
+    width: fit-content;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.link{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 10px;
+}
