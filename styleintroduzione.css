@@ -10,6 +10,7 @@ body {
     border-radius: 15px;/*il bordo arrotondato*/
     width: 50%;/*larghezza del contenitore*/
     justify-content: center;
+    margin-top:135px;
 }
 h1{
     text-align: center;/* allineo il testo al centro*/
