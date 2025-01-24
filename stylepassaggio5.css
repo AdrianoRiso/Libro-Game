@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to left, #c00005, #9f0017,#000000 #dbd5d6,#3d006e, #001798);
+    background-image: linear-gradient(to left, #c00005, #9f0017,#520303,#050404, #dbd5d6,#5564f0,#001798,#3d006e );
 }
 
 .contenitore{
